@@ -73,8 +73,238 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="" />
     <option name="MAXIMUM_HEAP_SIZE" value="128" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
-    <file url="file://$PROJECT_DIR$/src/main/scala/com/mogeneration/flyte/http/Api.scala" charset="UTF-8" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="FacetAutodetectingManager">
+    <autodetection-disabled>
+      <facet-type id="Scala">
+        <modules>
+          <module name="scalaz4">
+            <files>
+              <file url="file://$PROJECT_DIR$/../scalaz/project/build/ScalazProject.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/Arbitrary.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/Arg.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/Commands.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/ConsoleReporter.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/Constraint.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/Gen.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/Pretty.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/Prop.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/Properties.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/Shrink.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/Test.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/util/Buildable.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/util/CmdLineParser.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/util/FreqMap.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/org/scalacheck/util/StdRand.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Alpha.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Applicative.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Apply.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/ArrayByte.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Arrow.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/BKTree.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Bifunctor.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/BigIntMultiplication.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/BigIntW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/BigIntegerMultiplication.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/BigIntegerW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Bind.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/BooleanConjunction.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/BooleanW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/ByteMultiplication.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/ByteW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/CC.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/CharMultiplication.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/CharSet.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/CharW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Cofunctor.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Cojoin.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Cokleisli.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Comonad.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Continuation.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Copointed.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Copure.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/DList.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Digit.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/DoubleW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Dual.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Each.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Empty.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Endo.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/EnumerationW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Equal.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/FoldLeft.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/FoldRight.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Function0W.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Function1W.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Function2W.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Functor.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Identity.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Index.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/InputStreamW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/IntMultiplication.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/IntW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/IterableW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Kleisli.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Length.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/ListW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/LongMultiplication.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/LongW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/MA.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/MAB.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/MMA.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/MetricSpace.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Monad.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Monoid.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/NonEmptyList.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/OptionW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Order.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Ordering.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Paramorphism.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialApply1Of2.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialApply2Of3.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialApply3Of4.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialApply4Of5.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialApply5Of6.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialApply6Of7.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialApplyK.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialApplyKA.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialType2.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialWrapMA.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialWrapMAB.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/PartialWrapMMA.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Plus.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Pointed.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Pure.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Scalaz.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Semigroup.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/ShortMultiplication.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/ShortW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Show.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/State.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/StreamW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/StringW.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Traverse.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Tree.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/TreeLoc.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Validation.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Zero.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Zip.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/ZipStream.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/Zipper.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/concurrent/Actor.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/concurrent/Effect.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/concurrent/ParM.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/concurrent/Promise.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/concurrent/Strategy.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/concurrent/strategies.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/Application.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/EntityHeader.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/GeneralHeader.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/InputStreamer.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/ScalazServlet.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/StreamStreamApplication.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/Util.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/Version.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/request/Line.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/request/Method.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/request/Param.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/request/Request.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/request/RequestHeader.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/request/Uri.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/response/Body.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/response/ContentTypeResolver.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/response/Response.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/response/ResponseHeader.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/response/Status.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/response/StatusLine.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/response/StreamResponse.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/response/xhtml/Doctype.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/scapps/BaseApp.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/scapps/Route.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/scapps/Scapps.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/scapps/View.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/servlet/FlashFilter.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/servlet/HttpServlet.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/servlet/HttpServletRequest.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/servlet/HttpServletResponse.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/servlet/HttpSession.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/servlet/ServletApplication.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/servlet/StreamStreamServlet.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/http/servlet/StreamStreamServletApplication.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/memo/Comemo.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/memo/ImmutableAssociation.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/memo/Memo.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/main/scala/scalaz/memo/MutableAssociation.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/ArbitraryP.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/Implicit.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/Tests.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/control/parallel/ArbitraryParModule.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/control/parallel/ArbitraryStrategy.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/control/parallel/CheckParModule.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/control/parallel/CheckStrategy.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/ArbitraryArray.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/ArbitraryHashMap.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/ArbitraryHashSet.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/ArbitraryList.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/ArbitraryOption.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/ArbitrarySet.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/ArbitraryStream.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/ArbitraryTree.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/ArbitraryTreeMap.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/CheckArray.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/CheckHashMap.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/CheckHashSet.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/CheckList.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/CheckOption.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/CheckSet.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/CheckStream.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/CheckTree.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fj/data/CheckTreeMap.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/Class.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/Effect.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/F.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/F2.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/F3.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/F4.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/F5.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/F6.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/F7.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/F8.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/P1.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/P2.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/P3.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/P4.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/P5.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/P6.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/P7.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/P8.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/Unit.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/control/parallel/Actor.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/control/parallel/Promise.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/control/parallel/Strategy.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/data/Array.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/data/Either.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/data/List.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/data/Option.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/data/Stream.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/pre/Equal.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/pre/Hash.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/pre/Monoid.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/pre/Ord.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/pre/Semigroup.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/pre/Show.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/test/Arbitrary.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/test/Bool.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/test/Coarbitrary.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/test/Gen.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/test/Property.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/test/Shrink.scala" />
+              <file url="file://$PROJECT_DIR$/../scalaz/src/test/scala/fjs/test/reflect/Check.scala" />
+            </files>
+          </module>
+        </modules>
+      </facet-type>
+    </autodetection-disabled>
   </component>
   <component name="InspectionProjectProfileManager">
     <option name="PROJECT_PROFILE" value="Project Default" />
@@ -135,8 +365,7 @@
   <component name="ProjectFileVersion" converted="true" />
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$//flyte.iml" filepath="$PROJECT_DIR$//flyte.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../OpenSource/scalaz/scalaz4.iml" filepath="$PROJECT_DIR$/../../OpenSource/scalaz/scalaz4.iml" />
+      <module fileurl="file://$PROJECT_DIR$//sqm.iml" filepath="$PROJECT_DIR$//sqm.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
@@ -154,8 +383,8 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
-    <mapping directory="$PROJECT_DIR$/../../OpenSource/scalaz" vcs="svn" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../scalaz" vcs="svn" />
   </component>
 </project>
 
