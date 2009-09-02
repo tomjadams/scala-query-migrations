@@ -3,7 +3,7 @@ package sqm.sbt
 import _root_.sbt._
 import migrate._
 
-abstract class ScalaQueryMigrationProject(info: ProjectInfo) extends DefaultProject(info) {
+trait ScalaQueryMigrationProject extends Project {
   private lazy val runner = new MigrationRunner(log)
 
   /**
