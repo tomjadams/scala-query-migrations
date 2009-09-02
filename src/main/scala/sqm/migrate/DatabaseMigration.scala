@@ -42,19 +42,3 @@ trait DatabaseMigration {
     }
   }
 }
-
-//object UpMigrationRunner {
-//  import Migrations._
-//
-//  def main(args: Array[String]) {
-//    migrations.foreach(_.upWithTransaction)
-//  }
-//}
-//
-//object DownMigrationRunner {
-//  import Migrations._
-//
-//  def main(args: Array[String]) {
-//    migrations.foreach(_.downWithTransaction)
-//  }
-//}
