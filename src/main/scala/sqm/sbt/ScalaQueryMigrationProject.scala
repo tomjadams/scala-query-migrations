@@ -4,8 +4,6 @@ import _root_.sbt._
 import migrate._
 
 trait ScalaQueryMigrationProject extends Project {
-  private lazy val runner = new MigrationRunner(log)
-
   /**
    * Define your list of migrations.
    */
@@ -17,13 +15,13 @@ trait ScalaQueryMigrationProject extends Project {
   def migrateAction = migrateTask describedAs("Migrates your database: migrate [version]")
 
   def migrateTask = task { args: Array[String] =>
-        val latest = migrations.foldLeft(0L)((max, migration) => if (migration.version > max) migration.version else max)
-        val version = if (args.length == 1) args(0).toLong else latest
-        migrateTo(version)
+    val latest = migrations.foldLeft(0L)((max, migration) => if (migration.version > max) migration.version else max)
+    val version = if (args.length == 1) args(0).toLong else latest
+    migrateTo(version)
   }
 
   def migrateTo(version: Long) = task {
-    runner.migrateTo(version)
+    new MigrationRunner(migrations, log).migrateTo(version)
     None
   }
 }
