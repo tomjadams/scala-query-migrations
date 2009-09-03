@@ -21,13 +21,13 @@ trait DatabaseMigration {
    */
   def down(sf: SessionFactory): Unit
 
-  final def upWithTransaction(implicit sf: SessionFactory) {
+  final def upWithTransaction(sf: SessionFactory) {
     sf.withTransaction {
       up(sf)
     }
   }
 
-  final def downWithTransaction(implicit sf: SessionFactory) {
+  final def downWithTransaction(sf: SessionFactory) {
     sf.withTransaction {
       down(sf)
     }
