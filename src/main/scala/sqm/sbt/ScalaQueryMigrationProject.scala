@@ -4,7 +4,11 @@ import _root_.sbt._
 import migrate._
 import com.novocode.squery.session.SessionFactory
 
-trait ScalaQueryMigrationProject extends Project {
+//trait ScalaQueryMigrationProject extends Project {
+trait ScalaQueryMigrationProject extends ManagedProject {
+//trait ScalaQueryMigrationProject extends BasicDependencyProject {
+  // Automatically include this plugin in projects that mix this trait in.
+  val sqm = "sqm" % "sqm" % "0.0.1"
 
   /**
    * Define your list of migrations.
