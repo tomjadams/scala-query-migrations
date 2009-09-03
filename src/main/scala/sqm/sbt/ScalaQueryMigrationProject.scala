@@ -2,12 +2,19 @@ package sqm.sbt
 
 import _root_.sbt._
 import migrate._
+import com.novocode.squery.session.SessionFactory
 
 trait ScalaQueryMigrationProject extends Project {
+
   /**
    * Define your list of migrations.
    */
   def migrations: List[DatabaseMigration]
+
+  /**
+   * Define your session factory to use when running migrations.
+   */
+  def sessionFactory: SessionFactory
 
   lazy val migrate = migrateAction
 
@@ -17,7 +24,7 @@ trait ScalaQueryMigrationProject extends Project {
   def migrateTask = task { args: Array[String] =>
     val latest = migrations.foldLeft(0L)((max, migration) => if (migration.version > max) migration.version else max)
     val version = if (args.length == 1) args(0).toLong else latest
-    migrateTo(version)
+    migrateTo(version) //dependsOn(compile)
   }
 
   def migrateTo(version: Long) = task {
