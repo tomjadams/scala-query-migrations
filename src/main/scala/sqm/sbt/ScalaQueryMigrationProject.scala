@@ -28,7 +28,7 @@ trait ScalaQueryMigrationProject extends Project {
   }
 
   def migrateTo(version: Long) = task {
-    new MigrationRunner(migrations, log).migrateTo(version)
+    new MigrationRunner(sessionFactory, log, migrations).migrateTo(version)
     None
   }
 }
