@@ -8,11 +8,11 @@ object DatabaseMigration0000 extends DatabaseMigration {
   override def version = 0
   override def description = Some("Create db_version table.")
 
-  override def up(sf: SessionFactory) {
+  override def up(implicit sf: SessionFactory) {
     Version.createTable
   }
 
-  override def down(sf: SessionFactory) {
+  override def down(implicit sf: SessionFactory) {
     updateNA("drop table db_version")
   }
 }

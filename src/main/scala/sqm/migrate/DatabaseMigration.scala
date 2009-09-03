@@ -22,13 +22,13 @@ trait DatabaseMigration {
    * Applies the changes in this migration by moving the database version of to this version.
    * Requires an implicit SessionFactory to be defined in scope.
    */
-  def up(sf: SessionFactory): Unit
+  def up(implicit sf: SessionFactory): Unit
 
   /**
    * Rolls back the changes in this migration unapplying the changes in up.
    * Requires an implicit SessionFactory to be defined in scope.
    */
-  def down(sf: SessionFactory): Unit
+  def down(implicit sf: SessionFactory): Unit
 
   final def upWithTransaction(implicit sf: SessionFactory) {
     sf.withTransaction {
