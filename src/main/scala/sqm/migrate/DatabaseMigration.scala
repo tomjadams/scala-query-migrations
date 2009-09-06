@@ -11,14 +11,13 @@ trait DatabaseMigration {
 
   /**
    * Applies the changes in this migration by moving the database version of to this version.
-   * Requires an implicit SessionFactory to be defined in scope.
+   * This method excutes within a transaction, so you can use the implicit threadlocal session factory.
    */
   def up: Unit
 
   /**
    * Rolls back the changes in this migration unapplying the changes made in up.
-   * This method excutes within a transaction, so 
-   * Requires an implicit SessionFactory to be defined in scope.
+   * This method excutes within a transaction, so you can use the implicit threadlocal session factory.
    */
   def down: Unit
 
