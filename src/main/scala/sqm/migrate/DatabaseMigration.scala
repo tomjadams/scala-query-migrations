@@ -16,7 +16,8 @@ trait DatabaseMigration {
   def up: Unit
 
   /**
-   * Rolls back the changes in this migration unapplying the changes in up.
+   * Rolls back the changes in this migration unapplying the changes made in up.
+   * This method excutes within a transaction, so 
    * Requires an implicit SessionFactory to be defined in scope.
    */
   def down: Unit

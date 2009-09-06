@@ -17,11 +17,11 @@ object CreateVersionTableMigration extends DatabaseMigration {
   override def version = 0
   override def description = Some("Create db_version table.")
 
-  override def up(sf: SessionFactory) {
+  override def up {
     Version.createTable
   }
 
-  override def down(sf: SessionFactory) {
+  override def down {
     updateNA("drop table db_version")
   }
 }
