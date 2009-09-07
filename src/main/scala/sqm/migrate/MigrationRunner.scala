@@ -2,14 +2,20 @@ package sqm.migrate
 
 import com.novocode.squery.session.SessionFactory
 
-final class MigrationRunner(sessionFactory: SessionFactory, log: { def info(message: => String): Unit }, migrations: List[DatabaseMigration]) {
+object MigrationRunner {
+  def migrate(database: SessionFactory, log: {def info(message: => String): Unit}, migrations: List[DatabaseMigration], version: Long) =
+    new MigrationRunner(database, log, migrations).migrateTo(version)
+}
+
+final class MigrationRunner(sessionFactory: SessionFactory, log: {def info(message: => String): Unit}, migrations: List[DatabaseMigration]) {
+  // TODO Return Some(List[Exception]) to handle errors
   def migrateTo(version: Long) = {
-
-    
-
-
-
+    // TODO Get current version of database
+    // TODO Figure out where the database is & apply up/down as appropriate
     log.info("Migrating database to " + version)
-    // TODO Log the name of each migration as its being run
+    migrations.foreach((m: DatabaseMigration) => {
+      m.upWithTransaction(sessionFactory)
+      log.info("Applied UP in migration: " + m.description.getOrElse(m.version.toString))
+    })
   }
 }
